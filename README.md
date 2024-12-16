@@ -1,1 +1,3 @@
-# SD-ControleConcorrenciaJava
+# Controle de concorrência
+
+1. Os códigos mostram diferentes maneiras de criar e usar uma conta compartilhada. No primeiro e segundo exemplos, o pai, a mãe e o filho compartilham a mesma conta com saldo inicial de 100, mas as threads são iniciadas em ordens diferentes, o que pode mudar o comportamento do saque. No terceiro exemplo, é criada uma segunda conta para um novo membro, o Filho 2, mostrando que nem todos precisam compartilhar a mesma conta. Já o último exemplo não define um saldo inicial para a conta, o que pode causar problemas dependendo de como o saldo é gerenciado.
